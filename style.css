@@ -85,3 +85,12 @@ body{
   margin-top:-20px;
   display: none;
  }
+ @media (max-width:500px) {
+  .container{
+    width: 80%;
+    max-width: 500px;
+  }
+  .search input{
+    width: 80%;
+  }
+}
